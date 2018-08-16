@@ -1,12 +1,20 @@
-##Season Snow Effect
+## Season Snow Effect
 
-#Usage
+# Usage
+```jquery
+<script src="path/snowstorm.js"></script>
+```
+
+```js
+<script>
+	snowStorm.startSeason();
+</script>
+```
 
 
+# Extend Plugin
 
-#Extend Plugin
-
- -This plugin I extend for easy to put script 
+ - This plugin I extend for easy to put script 
 
 http://www.schillmania.com/projects/snowstorm/
 
@@ -17,19 +25,19 @@ snowStorm.animationInterval = 33;
 -Theoretical "milliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower
 
 snowStorm.flakeBottom = null;
--Limits the "floor" (pixels) of the snow. If unspecified, snow will "stick" to the bottom of the browser window and persists through browser resize/scrolling.
+- Limits the "floor" (pixels) of the snow. If unspecified, snow will "stick" to the bottom of the browser window and persists through browser resize/scrolling.
 
 snowStorm.flakesMax = 128;
--Sets the maximum number of snowflakes that can exist on the screen at any given time.
+- Sets the maximum number of snowflakes that can exist on the screen at any given time.
 
 snowStorm.flakesMaxActive = 64;
--Sets the limit of "falling" snowflakes (ie. moving on the screen, thus considered to be active.)
+- Sets the limit of "falling" snowflakes (ie. moving on the screen, thus considered to be active.)
 
 snowStorm.followMouse = true;
--Allows snow to move dynamically with the "wind", relative to the mouse's X (left/right) coordinates.
+- Allows snow to move dynamically with the "wind", relative to the mouse's X (left/right) coordinates.
 
 snowStorm.freezeOnBlur = true;
--Stops the snow effect when the browser window goes out of focus, eg., user is in another tab. Saves CPU, nicer to user.
+- Stops the snow effect when the browser window goes out of focus, eg., user is in another tab. Saves CPU, nicer to user.
 
 snowStorm.snowColor = '#fff';
 -Don't eat (or use?) yellow snow.
@@ -56,7 +64,7 @@ snowStorm.vMaxX = 8;
 snowStorm.vMaxY = 5;
 -Defines maximum X and Y velocities for the storm; a random value in this range is selected for each snowflake.
 
-#Methods
+# Methods
 -Snowstorm has a few basic methods for controlling the snow effect.
 
 snowStorm.randomizeWind()
