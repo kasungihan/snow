@@ -66,13 +66,16 @@ snowStorm.vMaxY = 5;
 
 # Methods
 - Snowstorm has a few basic methods for controlling the snow effect.
-
 snowStorm.randomizeWind()
+
 - Sets the wind speed with a random value relative to vMaxX and vMaxY properties.
 snowStorm.freeze()
+
 - Stops the snow effect in place.
 snowStorm.resume()
+
 - Continues snowing from a "frozen" state.
 snowStorm.toggleSnow()
+
 - Enables or disables the snow effect depending on state, same as calling freeze() or resume().
 snowStorm.stop()
