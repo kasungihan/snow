@@ -1,7 +1,7 @@
 ## Season Snow Effect
 
 # Usage
-```jquery
+```html
 <script src="path/snowstorm.js"></script>
 ```
 
