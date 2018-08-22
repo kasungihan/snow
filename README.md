@@ -5,7 +5,7 @@
 <script src="path/snowstorm.js"></script>
 ```
 
-```js
+```html
 <script>
 	snowStorm.startSeason();
 </script>
