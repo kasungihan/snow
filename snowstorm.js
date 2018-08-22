@@ -234,10 +234,10 @@ var snowStorm = (function(window, document) {
     var d = new Date();
     var dec = d.getMonth();
     if(dec === 11) {
-       storm.start()
+       storm.start();
     } else {
-      storm.stop()
-      console.log('It is Not Christmas');
+      storm.stop();
+      //console.log('It is Not Christmas');
     }
   };
 
